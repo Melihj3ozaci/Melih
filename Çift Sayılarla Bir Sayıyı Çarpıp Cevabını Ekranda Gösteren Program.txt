@@ -1,0 +1,9 @@
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int sabit = 3;
+            int sonuc = 0;
+            for (int i = 2; i <= 10; i+=2)
+            {
+                sonuc = i * sabit;
+                Console.WriteLine("{0} * {1} = {2}", sabit, i, sonuc);
+            }
+            Console.ReadKey();
